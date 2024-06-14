@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <!-- Author -->
+        <meta name = "author" content = "tanish,pratik,sujal,pruthvi,parmeshwar">
+        <!-- Description -->
+        <meta name = "description" content = "JavaScript Colour Picker">
+        <!-- Keywords -->
+        <meta name = "keywords" content = "JavaScript, Colour Picker">
+        <!-- Icon -->
+        <link rel = "icon" href = "paint.png">
+        <!-- Title -->
+        <title>Colour Picker</title>
+        <!-- Font -->
+        <link href = "https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel = "stylesheet">
+        <!-- CSS Link -->
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+
+    <body>
+        <div class="cont">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+        <div class="cont">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+
+                <div class = "container">
+            <div class = "header">
+                <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">TintTrove</h1>
+            </div>
+
+            <div class = "input-section">
+                
+                <div class = "user-input-left">
+                    <ul>
+                        <li>Select your color from the palette<br> <input type = "color" id = "inputColorPalette"></li>
+                    </ul>
+                </div>
+                
+                <div class = "input">
+                    <h3>Red</h3><input type = "range" min = "0" max = "255" id = "red" value = "130">
+                    <h3>Green</h3><input type = "range" min = "0" max = "255" id = "green" value = "130">
+                    <h3>Blue</h3><input type = "range" min = "0" max = "255" id = "blue" value = "130">
+                </div>
+
+            </div>
+
+            <div class = "output-section">
+
+                <div class = "outputs">
+                    <p>HEX: <span class = 'hex'>#FFFFFF</span></p>
+                    <p>RGB: <span class = 'rgb'>(255, 255, 255)</span></p>
+                </div>
+
+                <div class = "shades">
+                    <div class = "shades1"></div>
+                    <div class = "shades2"></div>
+                    <div class = "shades3"></div>
+
+                    <div class = "display"></div>
+                    
+                    <div class = "shades4"></div>
+                    <div class = "shades5"></div>
+                    <div class = "shades6"></div>
+                </div>
+
+
+            </div>
+        </div>
+        <script src = "script.js"></script>
+    </body>
+</html>
